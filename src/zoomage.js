@@ -423,8 +423,8 @@ Zoomage.prototype = {
             this.canvas.width   = this.imgTexture.width;
             this.canvas.height  = this.imgTexture.height;
 
-            this.canvas.setAttribute('width', this.imgTexture.width + 'px');
-            this.canvas.setAttribute('height', this.imgTexture.height + 'px');
+            this.canvas.setAttribute('width', this.imgTexture.width);
+            this.canvas.setAttribute('height', this.imgTexture.height);
 
             if (this.imgTexture.width > this.imgTexture.height) {
                 if (this.canvas.parentNode.clientWidth < this.imgTexture.width) {
